@@ -9,7 +9,7 @@ AFRAME.registerComponent("cursor-listener", {
   update: function () {
     const fadeBackgroundEl = document.querySelector("#fadeBackground");
 
-    // Verificar si el plano infoBanner ya tiene la entidad hija del texto con la información de la historieta.
+    // Verificar si el plano infoBanner ya tiene la entidad hija del texto con la información de la historieta,
     // de ser así, eliminar la hija para evitar el sobrelapamiento del texto.
     c = fadeBackgroundEl.children;
     if (c.length > 0) {
